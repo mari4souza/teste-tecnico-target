@@ -3,9 +3,7 @@
 // c) 0, 1, 4, 9, 16, 25, 36, - Regra: é o quadrado do número natural da sequencia 12345...
 // d) 4, 16, 36, 64, - Regra: O quadrado de uma sequencia de numeros naturais (somente pares) 2468..
 // e) 1, 1, 2, 3, 5, 8, - Regra: Soma dos dois termos anteriores (Fibonacci)
-// f) 2, 10, 12, 16, 17, 18, 19, - Regra: Apenas numeros naturais que começam com 'd'.
-
-import java.util.Arrays;
+// f) 2, 10, 12, 16, 17, 18, 19, - Regra: números naturais que iniciam com a letra 'd' quando escritos por extenso.
 
 public class Questao3 {
     public static void main(String[] args) {
@@ -14,7 +12,7 @@ public class Questao3 {
         System.out.println("c) " + proximoElementoC(36));
         System.out.println("d) " + proximoElementoD(64));
         System.out.println("e) " + proximoElementoE(5, 8));
-        System.out.println("f) " + proximoElementoDaSequencia(new int[]{2, 10, 12, 16, 17, 18, 19}));
+        System.out.println("f) " + proximoElementoDaSequenciaPorExtenso("dezessete", "dezoito", "dezenove"));
     }
 
     public static int proximoElementoA(int ultimoTermo) {
@@ -47,12 +45,13 @@ public class Questao3 {
     }
     // Fibonacci
 
-    public static int proximoElementoDaSequencia(int [] sequencia) {
-        int [] arrayEsperado = {2, 10, 12, 16, 17, 18, 19};
-        if (Arrays.equals(sequencia, arrayEsperado)) { // comparando os elementos dos arrays
+    public static int proximoElementoDaSequenciaPorExtenso(String antepenultimo, String penultimo, String ultimo) {
+        if (antepenultimo.startsWith("d") && penultimo.startsWith("d") && ultimo.equals("dezenove")) {
             return 200;
         }
 
         return -1;
     }
+    // Verifiquei se o último numero era 19 e se o penultimo e antepenultimo iniciavam com 'd' para não precisar verificar número por número da sequencia.
+    // Utilizei a função starsWith propria para strings, porem poderia ter transformado cada string em um array e utilizado a função charAt.
 }
