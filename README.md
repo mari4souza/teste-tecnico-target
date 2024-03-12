@@ -2,6 +2,10 @@
 Olá pessoal da Target, tudo certo? Este repositório contém as soluções para os exercícios propostos como parte do teste técnico para a vaga de estágio em desenvolvimento.
 Gostaria de comentar/documentar os exercicios e como os solucionei, bem como as estratégias e raciocinios utilizados, para que tenham uma noção do nível de raciocínio lógico no qual eu estou.
 
+<p align="center">
+  <img height="150px" src="./img/coding.gif"><br>
+</p>
+
 ## Linguagem 
 Apesar de possuir um bom conhecimento em JavaScript (acredito que a sintaxe da linguagem permite mais flexibilidade), optei por desenvolver as soluções em Java, para demonstrar meu favoritismo hehe ☕
 
@@ -23,4 +27,4 @@ Neste link você pode ver estas funções [Soluções](https://www.guj.com.br/t/
 6. Por fim, gostaria de deixar linkado o docs com minha redação sobre o uso IAs, que já enviei pela Gupy mas apenas por garantia, [redação](https://drive.google.com/file/d/1DR1o9ituhi3feTDbVjzCx_qElfIibHJs/view?usp=sharing). 
 
 ## Considerações Finais
-Estas foram minhas experiências com os exercícios. Dei meu melhor para solucioná-los, como sempre. Agradeço a Target pela oportunidade de participar do teste técnico e espero que tenham gostado de minhas resoluções! 
+Estas foram minhas experiências com os exercícios. Dei meu melhor para solucioná-los, como sempre. Agradeço à Target pela oportunidade de participar do teste técnico e espero que tenham gostado de minhas resoluções! ★
