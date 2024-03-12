@@ -24,7 +24,7 @@ Ademais, de acordo com minhas pesquisas, não existe uma função prória do jav
 Neste link você pode ver estas funções [Soluções](https://www.guj.com.br/t/metodo-que-mostre-um-numero-por-extenso/50128). Este é o vídeo do professor que utilizei como referência [Video](https://www.youtube.com/watch?v=acmdZckAITI).
 4. Questão mais difícil para mim até o momento. Consegui entender a lógica por trás, porém ainda não tenho uma ideia de como transforar em código. Mas estou buscando soluções!
 5. Questão simples de inversão de string, implementei utilizando recursividade.
-6. Por fim, gostaria de deixar linkado o docs com minha redação sobre o uso IAs, que já enviei pela Gupy mas apenas por garantia, [redação](https://drive.google.com/file/d/1DR1o9ituhi3feTDbVjzCx_qElfIibHJs/view?usp=sharing). 
+6. Por fim, gostaria de deixar linkado o pdf com minha redação sobre o uso IAs, que já enviei pela Gupy mas apenas por garantia, [redação](https://drive.google.com/file/d/1DR1o9ituhi3feTDbVjzCx_qElfIibHJs/view?usp=sharing). 
 
 ## Considerações Finais
 Estas foram minhas experiências com os exercícios. Dei meu melhor para solucioná-los, como sempre. Agradeço à Target pela oportunidade de participar do teste técnico e espero que tenham gostado de minhas resoluções! ★
